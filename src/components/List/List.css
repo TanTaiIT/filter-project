@@ -1,0 +1,47 @@
+.img-item{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 200px;
+}
+.img-item img{
+    object-fit: cover;
+    height: 200px;
+    
+}
+
+.list-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list-item{
+    width: 30%;
+    margin-bottom: 30px;
+}
+.list{
+    margin-top:30px;
+    flex:1;
+}
+.title-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.title-content h6{
+    padding:0;
+    margin:0;
+    font-size:18px;
+}
+.rating{
+    background-color: #97ffff;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+.time-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
